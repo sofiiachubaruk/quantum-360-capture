@@ -1,0 +1,23 @@
+# Your personal settings — never commit this
+config.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Image output (usually too large for GitHub)
+*.tiff
+*.tif
+*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / editor
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db

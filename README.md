@@ -1,8 +1,10 @@
 # 360° Automated Image Capture for Quantum Sensing Dataset Collection
 
+
 It is the first stage of a four-stage pipeline:
 
 **`quantum-360-capture`** (this repo) → [`microscopy-image-preprocessing-pipeline`](https://github.com/sofiiachubaruk/microscopy-image-preprocessing-pipeline) (data prep) → [`microscopy-image-restoration`](https://github.com/sofiiachubaruk/microscopy-image-restoration) (NAFNet) → [`quantum-360-reconstruction`](https://github.com/sofiiachubaruk/quantum-360-reconstruction) (3D + evaluation)
+
 
 An automated image acquisition pipeline for collecting ML-ready datasets in quantum sensing research. The system synchronizes a **Thorlabs scientific camera** with a **KIM101 piezoelectric motor controller** to capture a full 360° image sequence with precise angular control : purpose-built for training machine learning models on quantum optical data.
 
